@@ -23,7 +23,7 @@ If you're using the DisFrame bot framework, installation is a breeze:
    - Grab `coinrush.py` and the `assets` folder from this repository.
 
 2. **Drag and Drop**:
-   - Place the `assets` folder directly in your DisFrame root directory (where `main.py` lives). It contains images and fonts used by CoinRush.
+   - Place the `assets` folder directly in your DisFrame root directory (where `bot.py` lives). It contains images and fonts used by CoinRush.
    - Drop `coinrush.py` into the `cmds` folder in your DisFrame root directory to load it automatically with your bot.
 
 3. **Optional Organization**:
