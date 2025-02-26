@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/sircryptic/disframe-cogs/stargazers"><img src="https://img.shields.io/github/stars/sircryptic/disframe-cogs.svg" alt="GitHub stars"></a>
+  <a href="https://github.com/sircryptic/disframe-cogs/network"><img src="https://img.shields.io/github/forks/sircryptic/disframe-cogs.svg" alt="GitHub forks"></a>
+   <a href="https://github.com/sircryptic/disframe-cogs/watchers"><img src="https://img.shields.io/github/watchers/sircryptic/disframe-cogs.svg" alt="GitHub watchers"></a>
+</p>
+
 # DisFrame-Cogs
 
 Welcome to **DisFrame-Cogs**, the community cog repository for the [DisFrame Discord bot framework](https://github.com/sircryptic/disframe)! This repo is a hub for sharing and discovering custom cogs to extend your DisFrame bot with new features, games, utilities, and more. Built by the community, for the community!
