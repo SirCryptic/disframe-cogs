@@ -80,7 +80,6 @@ pip install Pillow
 ```
 
 ## Notes
-- **Easter Egg**: Craft a Distress Signal with exactly 28 durability for a hidden message from SirCryptic!
 - **Image Fallback**: If `spaceminer_base.jpg` is missing, a purple background is used.
 
 ## Contributing
