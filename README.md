@@ -26,7 +26,7 @@ This repository hosts a growing collection of community-created cogs to supercha
 Enhance your DisFrame bot with these steps:
 
 1. **Explore Available Cogs**:
-   - Browse the folders in this repo (e.g., `coinrush/`) to find cogs that suit your needs.
+   - Browse the folders in this repo (e.g., `Games/CoinRush`) to find cogs that suit your needs.
 
 2. **Download a Cog**:
    - Each cog folder contains a `.py` file (e.g., `coinrush.py`) and may include a `README.md` with instructions.
