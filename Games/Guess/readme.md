@@ -51,11 +51,21 @@ If you’re not using DisFrame, adapt the cog as follows:
 
 ## Requirements
 
-- **Assets**: The `assets` folder includes:
-  - `images/guess_base.jpg` (default feedback image).
-  - `fonts/impact.ttf` (text overlay font).
+- **Python Packages**:
+  - `discord.py`: Core library for Discord interactions (typically included with DisFrame).
+  - `Pillow`: For image generation (`pip install Pillow`).
+  - `aiohttp`: For async operations (often bundled with DisFrame, but `pip install aiohttp` if needed).
+- **Assets**:
+  - `assets/images/guess_base.jpg`: Default feedback image.
+  - `assets/fonts/impact.ttf`: Font for text overlays.
 - **Permissions**: The bot needs "Embed Links" for rich feedback.
 - **Fallback**: If assets are missing, it uses a gray background and default font.
+
+### Installing Requirements
+Run these commands in your DisFrame bot’s environment:
+```bash
+pip install Pillow aiohttp
+```
 
 ## Notes
 - **Multiplayer**: In guilds, only one game runs per channel at a time.
