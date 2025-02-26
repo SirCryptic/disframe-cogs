@@ -1,92 +1,78 @@
 <p align="center">
   <a href="https://github.com/sircryptic/disframe-cogs/stargazers"><img src="https://img.shields.io/github/stars/sircryptic/disframe-cogs.svg" alt="GitHub stars"></a>
   <a href="https://github.com/sircryptic/disframe-cogs/network"><img src="https://img.shields.io/github/forks/sircryptic/disframe-cogs.svg" alt="GitHub forks"></a>
-   <a href="https://github.com/sircryptic/disframe-cogs/watchers"><img src="https://img.shields.io/github/watchers/sircryptic/disframe-cogs.svg" alt="GitHub watchers"></a>
+  <a href="https://github.com/sircryptic/disframe-cogs/watchers"><img src="https://img.shields.io/github/watchers/sircryptic/disframe-cogs.svg" alt="GitHub watchers"></a>
 </p>
 
 # DisFrame-Cogs
 
-Welcome to **DisFrame-Cogs**, the community cog repository for the [DisFrame Discord bot framework](https://github.com/sircryptic/disframe)! This repo is a hub for sharing and discovering custom cogs to extend your DisFrame bot with new features, games, utilities, and more. Built by the community, for the community!
+Welcome to **DisFrame-Cogs**, the community-driven cog repository for the [DisFrame Discord bot framework](https://github.com/sircryptic/disframe)! This is your hub for sharing and discovering custom cogs to enhance your DisFrame bot with new commands, games, utilities, and more—built by the community, for the community.
 
 ## What is DisFrame?
-DisFrame is a flexible, modular Discord bot framework written in Python using `discord.py`. It’s designed to make bot development easy and extensible through a cog-based system. Whether you’re adding moderation tools, fun games, or unique commands, DisFrame’s structure lets you plug in cogs seamlessly.
+
+DisFrame is a modular Discord bot framework written in Python using `discord.py`. It’s designed for extensibility, allowing you to easily plug in cogs to add features like moderation tools, interactive games, or custom utilities. Learn more at the [DisFrame repo](https://github.com/sircryptic/disframe).
 
 ## Purpose
-This repository hosts a collection of community-created cogs for DisFrame. Each cog is a self-contained module you can add to your bot to enhance its functionality. From economy games like CoinRush to admin utilities, you’ll find tools here to supercharge your Discord server!
+
+This repository hosts a growing collection of community-created cogs to supercharge your DisFrame bot. Whether you’re looking for an economy game like CoinRush or a unique server tool, you’ll find contributions here to enrich your Discord experience.
 
 ## Getting Started
 
 ### Prerequisites
-- A running DisFrame bot (see the [DisFrame repo](https://github.com/sircryptic/disframe) for setup).
-- Basic knowledge of Python and Discord bot commands.
+- A running DisFrame bot instance (see the [Hosting Guide](https://sircryptic.github.io/DisWeb/pages/guide.html)).
+- Familiarity with Python and Discord bot commands.
 
-### Installation
-Adding cogs to your DisFrame bot is simple:
+### Adding Cogs
+Enhance your DisFrame bot with these steps:
 
-1. **Browse the Repo**:
-   - Check out the folders here (e.g., `coinrush/`) for available cogs.
+1. **Explore Available Cogs**:
+   - Browse the folders in this repo (e.g., `coinrush/`) to find cogs that suit your needs.
 
 2. **Download a Cog**:
-   - Each cog folder typically contains a `.py` file (e.g., `coinrush.py`) and an optional `README.md` with specific instructions.
-   - Some cogs may include an `assets` folder with images, fonts, or other resources.
+   - Each cog folder contains a `.py` file (e.g., `coinrush.py`) and may include a `README.md` with instructions.
+   - Some cogs come with an `assets` folder for resources like images or fonts.
 
-3. **Drag and Drop**:
-   - Place the `.py` file (e.g., `coinrush.py`) into your DisFrame bot’s `cmds/` folder in the root directory. DisFrame will load it automatically on startup.
-   - **Optional Organization**: For tidiness, create a subfolder like `cmds/games/` and drop the `.py` file there—DisFrame supports subfolders!
-   - If the cog includes an `assets` folder, move it to your DisFrame root directory (next to `bot.py`) to keep resources accessible.
+3. **Install the Cog**:
+   - Copy the `.py` file to your DisFrame bot’s `cmds/` directory (or a subfolder like `cmds/games/` for organization—DisFrame supports this).
+   - If an `assets` folder is included, place it in your DisFrame root directory (beside `bot.py`) to ensure resources load correctly.
 
 4. **Run Your Bot**:
-   - Start your bot with `python bot.py`. The cog will be loaded and ready to use!
-   - Check the cog’s `README.md` for any setup commands (e.g., `!coinrushsetup` for CoinRush).
-
-### Example: Adding CoinRush
-- Download `coinrush/coinrush.py` and `coinrush/assets/`.
-- Place `coinrush.py` in `cmds/` or `cmds/games/`.
-- Move the `assets/` folder to your DisFrame root.
-- Run your bot and type `!coinhelp` to start playing!
+   - Start your bot with `python bot.py`. The cog will load automatically.
+   - Refer to the cog’s `README.md` for any specific setup steps or usage commands.
 
 ## Available Cogs
-Here’s a growing list of cogs you can explore:
-- **[CoinRush](coinrush/README.md)**: An economy game with jobs, items, trading, achievements, and a casino.
 
-More cogs coming soon—add yours to the collection!
+Here’s a peek at some cogs you can add:
+- **[CoinRush](/Games/CoinRush#readme)**: An economy game featuring jobs, items, trading, achievements, and a casino.
+
+More cogs are on the way—contribute yours to grow the collection!
 
 ## Contributing
-We’d love your help growing this community! Here’s how to contribute:
 
-1. **Fork the Repo**:
-   - Click "Fork" at [github.com/sircryptic/DisFrame-cogs](https://github.com/sircryptic/DisFrame-cogs).
+We welcome your contributions to make DisFrame even better! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for detailed steps on how to:
+- Fork the repo and create your own cog.
+- Submit a pull request with your enhancements.
+- Ensure compatibility and document your work.
 
-2. **Create Your Cog**:
-   - Write a cog in Python following DisFrame’s cog structure (see [DisFrame docs](https://github.com/sircryptic/disframe) or existing cogs like `coinrush.py`).
-   - Add a `README.md` in your cog’s folder with a description, features, and usage instructions.
-
-3. **Organize Your Files**:
-   - Place your cog in a folder (e.g., `mycog/mycog.py`).
-   - Include any assets in a subfolder (e.g., `mycog/assets/`).
-
-4. **Submit a Pull Request**:
-   - Push your changes to your fork and create a pull request to this repo.
-   - Describe your cog in the PR—why it’s awesome and how it works!
-
-5. **Join the Community**:
-   - Share ideas, report bugs, or chat with us on the [DisFrame Discord](https://discord.gg/48JH3UkerX).
+Join the conversation on our [DisFrame Discord](https://discord.gg/48JH3UkerX) to share ideas or get help!
 
 ## Guidelines
-- **Compatibility**: Ensure your cog works with DisFrame’s latest version.
-- **Documentation**: Include a `README.md` with clear setup and usage steps.
-- **Naming**: Use descriptive, unique names for your cog to avoid conflicts.
-- **Respect**: Keep it fun and friendly—no malicious code!
+
+- **Compatibility**: Test your cog with the latest DisFrame version.
+- **Documentation**: Provide a `README.md` in your cog’s folder with setup and usage details.
+- **Community Spirit**: Keep contributions fun, functional, and free of malicious code.
 
 ## Resources
+
 - **DisFrame Framework**: [github.com/sircryptic/disframe](https://github.com/sircryptic/disframe)
-- **DisFrame Website**: [sircryptic.github.io/DisWeb](https://sircryptic.github.io/DisWeb/)
+- **Hosting Guide**: [sircryptic.github.io/DisWeb/pages/guide.html](https://sircryptic.github.io/DisWeb/pages/guide.html)
 - **Community Discord**: [discord.gg/48JH3UkerX](https://discord.gg/48JH3UkerX)
 
 ## License
-Cogs here are free for use with DisFrame—check individual cog `README.md` files for specific licensing details (if any).
+
+This repository is licensed under the [MIT License](LICENSE) (Copyright © 2025 SirCryptic). Contributors are encouraged to use MIT for their cogs but may choose any compatible open-source license. See individual cog `README.md` files for specific licensing details.
 
 ---
 
 **Maintained by**: SirCryptic & the DisFrame Community  
-**Get Involved**: Star this repo, add a cog, or join the fun!
+**Get Involved**: Star this repo, contribute a cog, or join our community!
