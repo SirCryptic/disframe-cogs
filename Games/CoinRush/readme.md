@@ -64,13 +64,25 @@ If you’re not using DisFrame, you’ll need to adapt the cog:
 
 ## Requirements
 
-- **Assets**: The `assets` folder includes:
-  - `images/coinrush_base.jpg` (default action image).
-  - `images/busted_base.jpg` (bust penalty image).
-  - `images/hospital_base.jpg` (hospital penalty image).
-  - `fonts/impact.ttf` (text overlay font).
-- **Permissions**: The bot needs "Manage Roles" for VIP functionality and "Embed Links" for rich UI.
+- **Python Packages**:
+  - `discord.py`: Core library for Discord interactions (typically included with DisFrame).
+  - `Pillow`: For image generation (`pip install Pillow`).
+  - `aiohttp`: For async operations (often bundled with DisFrame, but `pip install aiohttp` if needed).
+- **Assets**:
+  - `assets/images/coinrush_base.jpg`: Default action image.
+  - `assets/images/busted_base.jpg`: Bust penalty image.
+  - `assets/images/hospital_base.jpg`: Hospital penalty image.
+  - `assets/fonts/impact.ttf`: Font for text overlays.
+- **Permissions**: The bot needs:
+  - "Manage Roles" for VIP functionality.
+  - "Embed Links" for rich UI.
 - **Data**: Creates a `data/games/coinrush/` folder to store guild-specific game data.
+
+### Installing Requirements
+Run these commands in your bot’s environment:
+```bash
+pip install Pillow aiohttp
+```
 
 ## Notes
 - **Image Placeholder**: If asset images are missing, the cog falls back to a gray background.
