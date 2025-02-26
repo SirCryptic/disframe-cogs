@@ -62,11 +62,22 @@ If you’re not using DisFrame, adapt the cog as follows:
 
 ## Requirements
 
-- **Assets**: The `assets` folder includes:
-  - `images/spaceminer_base.jpg` (default action image).
-  - `fonts/impact.ttf` (text overlay font).
-- **Permissions**: The bot needs "Manage Roles" for the Explorer role and "Embed Links" for UI.
+- **Python Packages**:
+  - `discord.py`: Core library for Discord interactions (typically included with DisFrame).
+  - `Pillow`: For image generation (`pip install Pillow`).
+- **Assets**:
+  - `assets/images/spaceminer_base.jpg`: Default action image.
+  - `assets/fonts/impact.ttf`: Font for text overlays.
+- **Permissions**: The bot needs:
+  - "Manage Roles" for the Explorer role.
+  - "Embed Links" for UI.
 - **Data**: Creates a `data/games/spaceminer/` folder for guild-specific data.
+
+### Installing Requirements
+Run this command in your bot’s environment:
+```bash
+pip install Pillow
+```
 
 ## Notes
 - **Easter Egg**: Craft a Distress Signal with exactly 28 durability for a hidden message from SirCryptic!
